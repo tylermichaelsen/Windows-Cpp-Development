@@ -9,6 +9,8 @@ int main()
 {
     double c = 0;
     cin >> c;
+    if (c < -273.15)
+        error("Temperature is below absolute zero.\n");
     double k = ctok(c);
     cout << k << '\n';
 }
