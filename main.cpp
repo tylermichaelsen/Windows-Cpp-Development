@@ -2,14 +2,14 @@
 
 double ctok(double c) {
     int k = c + 273.25;
-    return int
+    return k;
 }
 
 int main()
 {
     double c = 0;
-    cin >> d;
-    double k = ctok("c");
-    Cout << k << '\n';
+    cin >> c;
+    double k = ctok(c);
+    cout << k << '\n';
 }
 
